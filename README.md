@@ -1,2 +1,2 @@
 # sign-up-form
-Sign Up Form project for The Oden Project
+Sign Up Form project for The Odin Project
