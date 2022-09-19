@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <section class="sidebar">
-      <h1><img src="./img/odin-logo.png" /> Odin</h1>
-      <img src="./img/ferns.avif" alt="picture of ferns" />
-      <p>
+      <div class="sidebar-header">
+        <img class="sidebar-header-img" src="./img/odin-logo.png" />
+        <h1>Odin</h1>
+      </div>
+      <p class="sidebar-img-credit">
         Photo by
         <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
         <a href="https://unsplash.com/">Upsplash</a>
@@ -27,36 +30,37 @@
       </div>
       <div class="main-form">
         <form action="#">
-          <h1>Let's do this!</h1>
-          <div>
+          <h1 class="form-header">Let's do this!</h1>
+          <div class="form-div">
             <label for="first_name">First Name</label>
             <input type="text" id="first_name" />
           </div>
-          <div>
+          <div class="form-div">
             <label for="last_name">Last Name</label>
             <input type="text" id="last_name" />
           </div>
-          <div>
+          <div class="form-div">
             <label for="email">Email</label>
             <input type="email" id="email" />
           </div>
-          <div>
+          <div class="form-div">
             <label for="phone_number">Phone Number</label>
             <input type="number" id="phone_number" />
           </div>
-          <div>
+          <div class="form-div">
             <label for="password">Password</label>
             <input type="password" id="password" />
           </div>
-          <div>
+          <div class="form-div">
             <label for="confirm_password">Confirm Password</label>
             <input type="password" id="confirm_password" />
           </div>
           <button type="submit">Create Account</button>
         </form>
       </div>
-      <div>Already have an account? <a href="#">Log in</a></div>
-      <div class="main-links"></div>
+      <div class="main-links">
+        Already have an account? <a href="#">Log in</a>
+      </div>
     </section>
   </body>
 </html>
