@@ -129,6 +129,9 @@ body {
 
 .form-input {
   width: 200px;
+  border-color: #e5e7eb;
+  border-radius: 3px;
+  border-style: solid;
 }
 
 .main-links {
@@ -141,7 +144,7 @@ body {
 .form-submit-btn {
   width: 175px;
   height: 35px;
-  background-color: rgb(85, 113, 74);
+  background-color: #596d48;
   color: white;
   border-radius: 5px;
   border-style: none;
